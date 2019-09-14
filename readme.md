@@ -1,4 +1,4 @@
-#Test cases for program which looking for a string in a file
+# Test cases for program which looking for a string in a file
 The python file "test_for_finding_string_in_text.py" was created for testing program "Test4Python.exe", which looking for a given string in a given text. More detailed information about all the tests in file you can find in the "configurations.yml".
 
 How to use testing python file:
