@@ -1,0 +1,20 @@
+#path/to/test/file.exe
+path_to_exe_file: ./Test4Python.exe
+tests:
+#Some text including string which we are looking for
+  - all_is_okey: 1 #1 - test will be executed 1 time, 2 - will be exetuted 2 times etc. 0 -  test will be skipped
+#Some text without string which we are looking for
+  - no_substring_in_file: 1
+#Try to looking for a string in empty file without any text
+  - file_is_empty: 1
+#Try to find an empty string in normal text 
+  - substring_is_empty: 1
+#Try to find string which size is more than text size
+  - substring_more_than_text: 1
+#Try to find string in text file which not exist (or which path is wrong)
+  - file_is_not_exists: 1
+#Try to execute program with less or more arguments than it needs
+  - not_three_args_given: 1
+#Big text file (from 500 mb to 4 Gb) including string which we are looking for
+  - file_is_very_big: 1
+  
